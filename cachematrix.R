@@ -4,6 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+		## return a matrix object, which can store and return a matrix itself and its inverse
         inv <- NULL
         set <- function(y) {
                 x <<- y
